@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Logo {
+
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0; /* Remove margins */
+    background-color: white;
+    float: none;
+    background-image: url('RoboticsTeamLogo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 0vh;
+    left: 50vh;
+    transform: translate(-50%, -50%);
+    color: black; /* Change the color as needed */
+    text-shadow: 1px 1px 15px burlywood; /* Add a shadow effect */
+    font-size: 27mm; /* Adjust the font size as needed */
+    text-align: center;
+}
